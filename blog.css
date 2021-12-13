@@ -1,0 +1,124 @@
+nav ul{
+    list-style: none;
+    list-style-image: none;
+    padding-left: 1px;
+    
+   
+}
+html{
+    background-image: url(sp_back.jpg);
+    
+}
+nav a{
+    text-decoration: none;
+    color:wheat;
+}
+
+body > header> nav.horizontalNavigation li{
+    width:20%;
+
+    
+}
+
+nav.horizontalNavigation li{
+    display:block;
+    float:left;
+    background-color: seagreen;
+    height:30px;
+   
+    
+}
+
+
+body{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1000px;
+    min-width: 640px;
+    width: 95%;
+}
+
+body > header >img{
+    display: block;
+    width:100%;
+    
+}
+
+div.formRow{
+    display: flex;
+    flex-flow: row wrap;
+    margin:7px 0px;
+}
+
+div.formRow > *{
+    flex:1 1 100px;
+}
+
+form#blogpost{
+display:flex;
+flex-flow: row wrap;
+}
+
+form#blogpost > fieldset{
+    background-color: rgb(176, 230, 214);
+    border-radius: 20px;
+    flex:1 1 300px;
+    font-size: 0.85em;
+    padding:10px;
+    margin:10px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(129, 79, 79);
+    color:cornsilk;
+    margin-top: 20px;
+    height: 20px;
+    font-size:small  !important;
+    font-style: italic !important;
+}
+
+
+
+textarea{
+    margin-top: 10px;
+    height: 100px;
+    width:95% !important;
+}
+
+div#button{
+    text-align: right;
+    width:100%;
+    font-size: 1.2em;
+    padding: 5px;
+    
+}
+
+#postb{
+    background-color: green;
+    color:white;
+}
+
+article{
+    background: url(tb_back4.png) 100%/cover no-repeat;
+    box-shadow: inset rgb(71,71,71) -10px -10px 25px,
+                   inset rgb(71,71,71) 10px 10px 25px;
+}
+h2{
+    color:green;
+    padding: 5px;
+}
+
+h1{
+    color:indigo;
+    padding: 5px;
+}
+
+p{
+    font-family:cursive;
+    padding:10px;
+}
+span{
+    color:red;
+    font-weight: bold;
+}
